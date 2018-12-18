@@ -1,0 +1,602 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3FF1940921928565008295E0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF1940821928565008295E0 /* AppDelegate.swift */; };
+		3FF1940B21928565008295E0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF1940A21928565008295E0 /* ViewController.swift */; };
+		3FF1940E21928565008295E0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FF1940C21928565008295E0 /* Main.storyboard */; };
+		3FF1941121928565008295E0 /* AlertController_yuxin.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3FF1940F21928565008295E0 /* AlertController_yuxin.xcdatamodeld */; };
+		3FF1941321928566008295E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FF1941221928566008295E0 /* Assets.xcassets */; };
+		3FF1941621928566008295E0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FF1941421928566008295E0 /* LaunchScreen.storyboard */; };
+		3FF1942121928566008295E0 /* AlertController_yuxinTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF1942021928566008295E0 /* AlertController_yuxinTests.swift */; };
+		3FF1942C21928566008295E0 /* AlertController_yuxinUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF1942B21928566008295E0 /* AlertController_yuxinUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3FF1941D21928566008295E0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3FF193FD21928564008295E0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3FF1940421928565008295E0;
+			remoteInfo = AlertController_yuxin;
+		};
+		3FF1942821928566008295E0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3FF193FD21928564008295E0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3FF1940421928565008295E0;
+			remoteInfo = AlertController_yuxin;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3FF1940521928565008295E0 /* AlertController_yuxin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AlertController_yuxin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FF1940821928565008295E0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3FF1940A21928565008295E0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3FF1940D21928565008295E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3FF1941021928565008295E0 /* AlertController_yuxin.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AlertController_yuxin.xcdatamodel; sourceTree = "<group>"; };
+		3FF1941221928566008295E0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3FF1941521928566008295E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3FF1941721928566008295E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FF1941C21928566008295E0 /* AlertController_yuxinTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlertController_yuxinTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FF1942021928566008295E0 /* AlertController_yuxinTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertController_yuxinTests.swift; sourceTree = "<group>"; };
+		3FF1942221928566008295E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FF1942721928566008295E0 /* AlertController_yuxinUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlertController_yuxinUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FF1942B21928566008295E0 /* AlertController_yuxinUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertController_yuxinUITests.swift; sourceTree = "<group>"; };
+		3FF1942D21928566008295E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3FF1940221928565008295E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FF1941921928566008295E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FF1942421928566008295E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3FF193FC21928564008295E0 = {
+			isa = PBXGroup;
+			children = (
+				3FF1940721928565008295E0 /* AlertController_yuxin */,
+				3FF1941F21928566008295E0 /* AlertController_yuxinTests */,
+				3FF1942A21928566008295E0 /* AlertController_yuxinUITests */,
+				3FF1940621928565008295E0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3FF1940621928565008295E0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3FF1940521928565008295E0 /* AlertController_yuxin.app */,
+				3FF1941C21928566008295E0 /* AlertController_yuxinTests.xctest */,
+				3FF1942721928566008295E0 /* AlertController_yuxinUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3FF1940721928565008295E0 /* AlertController_yuxin */ = {
+			isa = PBXGroup;
+			children = (
+				3FF1940821928565008295E0 /* AppDelegate.swift */,
+				3FF1940A21928565008295E0 /* ViewController.swift */,
+				3FF1940C21928565008295E0 /* Main.storyboard */,
+				3FF1941221928566008295E0 /* Assets.xcassets */,
+				3FF1941421928566008295E0 /* LaunchScreen.storyboard */,
+				3FF1941721928566008295E0 /* Info.plist */,
+				3FF1940F21928565008295E0 /* AlertController_yuxin.xcdatamodeld */,
+			);
+			path = AlertController_yuxin;
+			sourceTree = "<group>";
+		};
+		3FF1941F21928566008295E0 /* AlertController_yuxinTests */ = {
+			isa = PBXGroup;
+			children = (
+				3FF1942021928566008295E0 /* AlertController_yuxinTests.swift */,
+				3FF1942221928566008295E0 /* Info.plist */,
+			);
+			path = AlertController_yuxinTests;
+			sourceTree = "<group>";
+		};
+		3FF1942A21928566008295E0 /* AlertController_yuxinUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3FF1942B21928566008295E0 /* AlertController_yuxinUITests.swift */,
+				3FF1942D21928566008295E0 /* Info.plist */,
+			);
+			path = AlertController_yuxinUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3FF1940421928565008295E0 /* AlertController_yuxin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FF1943021928566008295E0 /* Build configuration list for PBXNativeTarget "AlertController_yuxin" */;
+			buildPhases = (
+				3FF1940121928565008295E0 /* Sources */,
+				3FF1940221928565008295E0 /* Frameworks */,
+				3FF1940321928565008295E0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AlertController_yuxin;
+			productName = AlertController_yuxin;
+			productReference = 3FF1940521928565008295E0 /* AlertController_yuxin.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3FF1941B21928566008295E0 /* AlertController_yuxinTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FF1943321928566008295E0 /* Build configuration list for PBXNativeTarget "AlertController_yuxinTests" */;
+			buildPhases = (
+				3FF1941821928566008295E0 /* Sources */,
+				3FF1941921928566008295E0 /* Frameworks */,
+				3FF1941A21928566008295E0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3FF1941E21928566008295E0 /* PBXTargetDependency */,
+			);
+			name = AlertController_yuxinTests;
+			productName = AlertController_yuxinTests;
+			productReference = 3FF1941C21928566008295E0 /* AlertController_yuxinTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3FF1942621928566008295E0 /* AlertController_yuxinUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FF1943621928566008295E0 /* Build configuration list for PBXNativeTarget "AlertController_yuxinUITests" */;
+			buildPhases = (
+				3FF1942321928566008295E0 /* Sources */,
+				3FF1942421928566008295E0 /* Frameworks */,
+				3FF1942521928566008295E0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3FF1942921928566008295E0 /* PBXTargetDependency */,
+			);
+			name = AlertController_yuxinUITests;
+			productName = AlertController_yuxinUITests;
+			productReference = 3FF1942721928566008295E0 /* AlertController_yuxinUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3FF193FD21928564008295E0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = 9.3;
+				TargetAttributes = {
+					3FF1940421928565008295E0 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					3FF1941B21928566008295E0 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 3FF1940421928565008295E0;
+					};
+					3FF1942621928566008295E0 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 3FF1940421928565008295E0;
+					};
+				};
+			};
+			buildConfigurationList = 3FF1940021928564008295E0 /* Build configuration list for PBXProject "AlertController_yuxin" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3FF193FC21928564008295E0;
+			productRefGroup = 3FF1940621928565008295E0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3FF1940421928565008295E0 /* AlertController_yuxin */,
+				3FF1941B21928566008295E0 /* AlertController_yuxinTests */,
+				3FF1942621928566008295E0 /* AlertController_yuxinUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3FF1940321928565008295E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FF1941621928566008295E0 /* LaunchScreen.storyboard in Resources */,
+				3FF1941321928566008295E0 /* Assets.xcassets in Resources */,
+				3FF1940E21928565008295E0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FF1941A21928566008295E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FF1942521928566008295E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3FF1940121928565008295E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FF1940B21928565008295E0 /* ViewController.swift in Sources */,
+				3FF1940921928565008295E0 /* AppDelegate.swift in Sources */,
+				3FF1941121928565008295E0 /* AlertController_yuxin.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FF1941821928566008295E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FF1942121928566008295E0 /* AlertController_yuxinTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FF1942321928566008295E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FF1942C21928566008295E0 /* AlertController_yuxinUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3FF1941E21928566008295E0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3FF1940421928565008295E0 /* AlertController_yuxin */;
+			targetProxy = 3FF1941D21928566008295E0 /* PBXContainerItemProxy */;
+		};
+		3FF1942921928566008295E0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3FF1940421928565008295E0 /* AlertController_yuxin */;
+			targetProxy = 3FF1942821928566008295E0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3FF1940C21928565008295E0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3FF1940D21928565008295E0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3FF1941421928566008295E0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3FF1941521928566008295E0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3FF1942E21928566008295E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3FF1942F21928566008295E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3FF1943121928566008295E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AlertController_yuxin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-.3.AlertController-yuxin";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3FF1943221928566008295E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AlertController_yuxin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-.3.AlertController-yuxin";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3FF1943421928566008295E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AlertController_yuxinTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-.3.AlertController-yuxinTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AlertController_yuxin.app/AlertController_yuxin";
+			};
+			name = Debug;
+		};
+		3FF1943521928566008295E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AlertController_yuxinTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-.3.AlertController-yuxinTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AlertController_yuxin.app/AlertController_yuxin";
+			};
+			name = Release;
+		};
+		3FF1943721928566008295E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AlertController_yuxinUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-.3.AlertController-yuxinUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AlertController_yuxin;
+			};
+			name = Debug;
+		};
+		3FF1943821928566008295E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AlertController_yuxinUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-.3.AlertController-yuxinUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AlertController_yuxin;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3FF1940021928564008295E0 /* Build configuration list for PBXProject "AlertController_yuxin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FF1942E21928566008295E0 /* Debug */,
+				3FF1942F21928566008295E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3FF1943021928566008295E0 /* Build configuration list for PBXNativeTarget "AlertController_yuxin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FF1943121928566008295E0 /* Debug */,
+				3FF1943221928566008295E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3FF1943321928566008295E0 /* Build configuration list for PBXNativeTarget "AlertController_yuxinTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FF1943421928566008295E0 /* Debug */,
+				3FF1943521928566008295E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3FF1943621928566008295E0 /* Build configuration list for PBXNativeTarget "AlertController_yuxinUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FF1943721928566008295E0 /* Debug */,
+				3FF1943821928566008295E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		3FF1940F21928565008295E0 /* AlertController_yuxin.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				3FF1941021928565008295E0 /* AlertController_yuxin.xcdatamodel */,
+			);
+			currentVersion = 3FF1941021928565008295E0 /* AlertController_yuxin.xcdatamodel */;
+			path = AlertController_yuxin.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 3FF193FD21928564008295E0 /* Project object */;
+}

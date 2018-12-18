@@ -1,0 +1,6 @@
+let image = try Data(contentsOf: URL(string: "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1545715038&di=2b4f60614aafedccbac482bdbb1cc74c&imgtype=jpg&er=1&src=http%3A%2F%2Ftvax4.sinaimg.cn%2Fcrop.0.0.996.996.1024%2F6ae0d3d0ly8fwhfuigpfoj20ro0roq4q.jpg")!) //通过指定的url获取图片，并转换为二进制数据
+
+if var url = defaultDoc.urls(for: .documentDirectory, in: .userDomainMask).first {
+    url.appendPathComponent("image.png")
+    try image.write(to: url)  //将转换后的二进制数据存储为png图片
+}

@@ -1,0 +1,31 @@
+import UIKit
+
+class MyView: UIView {
+    override func draw(_ rect: CGRect) {
+    let path = UIBezierPath(ovalIn: rect)
+    UIColor.red.setStroke()
+    path.stroke()
+    UIColor.red.setFill()
+    path.fill()
+    }
+}
+class ViewController: UIViewController {
+
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        // Do any additional setup after loading the view, typically from a nib.
+        let oval = MyView(frame: CGRect(x: 100, y: 300, width: 50, height: 120))
+        oval.backgroundColor = UIColor.black
+        self.view.addSubview(oval)
+        let circle = MyView(frame: CGRect(x: 200, y: 300, width: 120, height: 80))
+        circle.backgroundColor = UIColor.white
+        self.view.addSubview(circle)
+    }
+
+    override func didReceiveMemoryWarning() {
+        super.didReceiveMemoryWarning()
+        // Dispose of any resources that can be recreated.
+    }
+
+
+}

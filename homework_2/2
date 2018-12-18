@@ -1,0 +1,3 @@
+let arr1 = ["ajsfhu", "182has8f", "187326478", "123"]
+let arr2 = arr1.filter( { Int($0) != nil } )  //先将字符串元素强转为Int?，如果值为nil，则表示该字符串不能转换成Int
+print(arr2) 

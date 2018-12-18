@@ -1,0 +1,84 @@
+/// 给定一个Dictionary，Dictionary包含key值name和age，用map函数返回age字符串数组;
+let dic = [["name": "qq", "age": 18], ["name": "qx", "age": 19], ["name": "yx", "age": 20]]
+
+let str = di
+
+
+/// 给定一个String数组，用filter函数选出能被转成Int的字符串
+let arr1 = ["ajsfhu", "182has8f", "187326478", "123"]
+let arr2 = arr1.filter( { Int($0) != nil } )  //先将字符串元素强转为Int?，如果值为nil，则表示该字符串不能转换成Int
+print(arr2)  
+
+
+/// 用reduce函数把String数组中元素连接成一个字符串，以逗号分隔
+let arr3 = ["ajsfhu", "182has8f", "187326478"]
+var str1 = arr3.reduce("", { $0 + "," + $1 }) //将字符串数组整合
+str1.remove(at: str1.startIndex)  //因为整合结果的字符串的第一个字符为","，所以需要将这个","移除
+print(str1)  
+
+
+/// 用 reduce 方法一次求出整数数组的最大值、最小值、总数和
+let tuple = intArr.reduce((max: intArr[0], min: intArr[0], sum: 0), { (max: max($0.max, $1), min: min($0.min, $1), $0.sum + $1) })
+print(tuple)  
+
+
+/// 新建一个函数数组，函数数组里面保存了不同函数类型的函数，要求从数组里找出参数为一个整数，返回值为一个整数的所有函数
+func f1(a: Int) -> Int {
+    return a
+}  
+
+func f2(a: String) -> Int {
+    return Int(a)!
+}  
+
+func f3() -> Int {
+    return 2
+}  
+
+func f4(a: Int) {
+
+}  
+
+func f5(a: Int) -> Int {
+    return a + 1
+}  
+
+let funArr: [Any] = [f1, f2, f3, f4, f5]
+for (index, value) in funArr.enumerated() { //因为循环过程中需要设计到数组的下标，要将数组元素一一列举出来，所以需要调用数组的enumerated()方法。
+    if value is (Int) -> Int {
+        print(index) ，
+    }
+}  
+
+
+/// 扩展Int，增加sqrt方法，可以计算Int的Sqrt值并返回浮点数，进行验证
+extension Int {
+    func sqrt() -> Double {
+        return Darwin.sqrt(Double(self))
+    }
+}
+
+print(4.sqrt())  //输出2.0
+
+
+/// 实现一个支持泛型的函数，该函数接受任意个变量并返回最大和最小值，分别传入整数值、浮点数值、字符串进行验证
+//自定义泛型函数，因为需要比较大小，所以该泛型需要遵循Comparable协议，函数参数为可变参数
+
+func getMaxAndMin<T: Comparable>(a: T...) -> (T, T) {
+    var max = a[0]
+    var min = a[0]
+
+    for item in a {
+        if item > max {
+            max = item
+        } else if item < min {
+            min = item
+        }
+    }
+
+    return (max, min)
+}
+
+print(getMaxAndMin(a: 1, 2, 3, 9, 2, 88))  
+print(getMaxAndMin(a: 1.0, 2.0, 3.0, 9.0, 2.0, 88.0))  
+print(getMaxAndMin(a: "a", "b", "A", "sss"))  

@@ -1,0 +1,4 @@
+let dic = [["name": "yy", "age": 18], ["name": "qq", "age": 19], ["name": "yx", "age": 20]]
+
+let str = dic.map( { $0["name"]! } )  //返回字典数组中每个字典元素的"name"对应的值
+print(str)  //输出

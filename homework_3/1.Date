@@ -1,0 +1,25 @@
+func getDate(date: Date, zone: Int = 0) -> String {
+    let formatter = DateFormatter()  //实例化格式化类
+    formatter.dateFormat = "yyyy年MM月dd日EEEE aa KK:mm"  //指定格式化的格式
+    formatter.locale = Locale.current  //设置当前位置，可以将对应的星期数和12小时制的上下午设置为中文
+    if zone >= 0 { //当传入的为正数时，在东半区
+        formatter.timeZone = TimeZone(abbreviation: "UTC+\(zone):00")
+    } else {  //当传入的为负数时，在西半区
+        formatter.timeZone = TimeZone(abbreviation: "UTC\(zone):00")
+    }
+
+    let dateString = formatter.string(from: now)  //将传入的日期格式化为字符串
+    return dateString
+}
+
+let now = Date()  //获取当前时间日期
+
+let beijing = getDate(date: now, zone: +8)  
+print("北京: \(beijing)")  
+
+let tokyo = getDate(date: now, zone: 9)  
+print("东京: \(tokyo)")  
+
+let newYork = getDate(date: now, zone: -5)  
+print("纽约: \(newYork)")  
+

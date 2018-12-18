@@ -1,0 +1,4 @@
+let arr3 = ["ajsfhu", "182has8f", "187326478"]
+var str1 = arr3.reduce("", { $0 + "," + $1 }) //将字符串数组整合
+str1.remove(at: str1.startIndex)  //因为整合结果的字符串的第一个字符为","，所以需要将这个","移除
+print(str1)

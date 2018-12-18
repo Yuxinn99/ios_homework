@@ -1,0 +1,9 @@
+let dic = ["date": ["beijing": beijing, "tokyo": tokyo, "newYork": newYork, "london": london], "string": subString] as AnyObject  //将字典转换为任意类型，方便后面写入文件
+
+let defaultDoc = FileManager.default  //获取默认工作路径
+//获取工作路径下的Document文件夹
+if var path = defaultDoc.urls(for: .documentDirectory, in: .userDomainMask).first?.path {
+    path.append("/test.txt")  //在文件夹路径下增加一个test.txt
+
+    print(dic.write(toFile: path, atomically: true))  //新建上面指定的文件，并将数据写入
+}
